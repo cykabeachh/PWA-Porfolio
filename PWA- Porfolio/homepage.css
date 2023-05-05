@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'poppins'
+	width:  100%;
+}
+.wrapper{
+	width: 100%;
+	margin: auto;
+}
+header{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(img/bg2.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.nav-area{
+	float: center;
+	list-style: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	text-align: center;
+}
+.nav-area li{
+	display: inline-block;
+}
+.nav-area li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover{
+	background: #fff;
+	color: #333;
+}
+.text{
+	position: absolute;
+	width: 35%;
+	height: 300px;
+	margin: 13% 30%;
+	text-align: center;
+}
+.text h1{
+	float: center;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+	padding-left: 8.5rem;
+}
+.continue a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 9rem;
+	display: inline-block;
+	color: #fff;
+
+}
+.continue a:hover {
+	background: #fff;
+	color: #333;
+}
+.continue h3{
+	opacity: 0.2px;
+	transform: scale(0.8);
+	transition: all 0.5s ease-in
+}
+.continue h3:hover{
+	transform: scale(0.9);
+	transition: all 0.5s ease-out;
+}
+.footer{
+	margin-top: 100%;
+}
+

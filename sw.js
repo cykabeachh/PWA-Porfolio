@@ -2,7 +2,8 @@ var cacheName = 'itst-pwa';
 var filesToCache = [
   '/',
   'index.html',
-  'homepage.css',
+  'css/style.css',
+  'js/main.js'
 ];
 
 /* Start the service worker and cache all of the app's content */

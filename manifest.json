@@ -1,6 +1,6 @@
 {
-  "name": "Performance Task Portfolio",
-  "short_name": "My Portfolio",
+  "name": "Number Guessing Game",
+  "short_name": "Number Guessing Game",
   "icons": [{
     "src": "images/logo-ccs-60.png",
       "sizes": "60x60",
